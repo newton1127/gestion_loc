@@ -25,7 +25,7 @@ public class Client {
 
     @OneToMany(targetEntity = Voiture.class,cascade = CascadeType.ALL)
     @JoinColumn(name ="voiture_Id")
-    private List<Voiture> voiture ;
+    private List<Voiture>  voiture ;
 
 
 }
